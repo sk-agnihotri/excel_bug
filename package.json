@@ -1,0 +1,73 @@
+{
+  "name": "Tableau-Excel-Extractor",
+  "version": "0.1.0",
+  "private": false,
+  "description": "Download Tableau Reports in Excel format",
+  "keywords": [
+    "tableau",
+    "Bizacuity"
+  ],
+  "bugs": "https://github.com/sk-agnihotri/excel_bug/issues",
+  "author": {
+    "name": "Saumya Kumar Agnihotri",
+    "email": "saumya.kumar@bizacuity.com"
+  },
+  "contributors": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sk-agnihotri/excel_bug.git"
+  },
+  "homepage": "https://github.com/sk-agnihotri/excel_bug",
+  "engines": {
+    "node": ">= 0.10.x"
+  },
+  "main": "dist/cli/index.js",
+  "script":
+  { "start" :  "./dist/cli/index.js"
+  },
+  "bin": {
+    "tableau-extract": "./dist/cli/index.js"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "chai-as-promised": "^5.1.0",
+    "coffee-script": "^1.7.1",
+    "gulp": "^4.0.2",
+    "gulp-cached": "^1.0.1",
+    "gulp-coffee": "^2.2.0",
+    "gulp-coffeelint": "^0.5.0",
+    "gulp-concat": "^2.5.2",
+    "gulp-debounced-watch": "^1.0.4",
+    "gulp-jshint": "^2.1.0",
+    "gulp-load-plugins": "^1.0.0",
+    "gulp-mocha": "^7.0.1",
+    "gulp-nodemon": "^2.0.4",
+    "gulp-size": "^2.0.0",
+    "gulp-using": "0.0.1",
+    "gulp-util": "^3.0.6",
+    "gutil": "^1.6.4",
+    "mocha": "^6.2.0",
+    "rewire": "^2.5.1",
+    "should": "^7.1.1",
+    "sinon": "^1.16.1",
+    "sinon-as-promised": "^4.0.0",
+    "sinon-chai": "^2.8.0",
+    "timekeeper": "0.0.5",
+    "yargs": "^4.6.0"
+  },
+  "dependencies": {
+    "bluebird": "^3.0.5",
+    "cldr-data": "^29.0.1",
+    "colors": "^1.1.2",
+    "commander": "^2.9.0",
+    "csvtojson": "starschema/node-csvtojson#2437216",
+    "globalize": "^1.1.1",
+    "jshint": "^2.10.2",
+    "lodash": "^4.11.1",
+    "request": "^2.72.0",
+    "stream-meter": "^1.0.3",
+    "winston": "^2.2.0",
+    "xlsx": "^0.8.0",
+    "xml2js": "^0.4.16"
+  }
+}
