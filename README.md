@@ -5,7 +5,7 @@ Download Tableau reports in Excel format, by using their Tableau urls. Currently
 ## Install
 
 ```
-npm install -g starschema-tableau-excel-extractor
+npm install -g Tableau-Excel-Extractor
 ```
 
 ## Usage
