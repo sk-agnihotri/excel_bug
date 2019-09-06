@@ -62,7 +62,7 @@ try
   _viewSet = getViewSet _params.viewUrl, _params.username
   setGlobalConfig _viewSet.serverUrl, _params.separator
 catch err
-  console.log err.message.red
+  console.log err.message.yellow
   process.exit 0
 
 
