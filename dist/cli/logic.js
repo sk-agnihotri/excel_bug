@@ -71,7 +71,7 @@ try {
   setGlobalConfig(_viewSet.serverUrl, _params.separator);
 } catch (error) {
   err = error;
-  console.log(err.message.red);
+  console.log(err.message.yellow);
   process.exit(0);
 }
 
